@@ -1,0 +1,211 @@
+/* File: pacific.css
+HW2: Style a Site with External CSS
+Ilyes Abdellatif Bouazza, UMass Lowell Computer Science, ilyesabdellatif_bouazza@cs.uml.edu
+Copyright (c) 2024 by Ilyes. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+created by IAB on SEP 20, 2024 at 8:00 AM
+ */
+ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body{
+	background-color: #00569f;
+	background-image: url(ptrbackground.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-box {
+    box-sizing: border-box;
+	margin: 0;
+}
+
+#wrapper{
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: auto !important;
+	margin-top: 1%;
+	min-width: 600px;
+	background-color: white !important;
+	display: grid;
+	grid-template-columns: minmax(100px, 100px) minmax(100px, 100px) repeat(8, 1fr);
+	grid-template-rows:  auto auto auto;
+	
+	
+
+	
+
+
+}
+
+#wrapper header{
+
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	grid-column: 1/11;
+	grid-row: 1/1;
+	display: flex; 
+	align-items: center;
+	margin-bottom: 0;
+	padding: 10px;
+	
+}
+
+#content{
+	
+	
+}
+
+h2 {
+	color: #3399CC;
+	margin-top: -10px;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+	margin: 0;
+	color: white;
+}
+
+
+
+dt {
+	color: #000033;
+}
+
+
+
+
+
+
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+nav{
+	background-color: #8dc6e4 !important;
+	grid-column: 1/3;
+	grid-row: 2/11;
+	min-width: 200px;
+	max-width: 200px;
+	
+
+}
+
+nav ul {
+	list-style-type: none;
+	font-size: 1.2em;
+	
+	
+}
+
+
+
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(1, 1, 61);
+}
+
+
+#content{
+	grid-column: 3/11;
+	grid-row: 2/10;
+	padding: 30px;
+	
+	
+	
+	
+	
+}
+
+
+#content h2 {
+	
+	
+
+	
+}
+
+#content img {
+	
+	min-width:320px;
+	max-width: 320px;
+	height: 250px;
+	float:left;
+	margin-right: 30px;
+
+
+	
+
+}
+
+
+
+
+#content p {
+	height: fit-content;
+	
+}
+
+
+#content ul{
+	list-style-image: url('marker.gif');
+	
+	list-style-position: inside;
+}
+
+
+
+#contact{
+	font-size: 90%;
+
+	
+}
+
+.resort:nth-child(1){
+	color: rgb(104, 144, 244);
+	font-weight: bold;
+}
+
+
+
+footer{
+	background-color: white !important;
+	grid-column: 3/11;
+	grid-row: auto;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+
+}
+
+footer  a {
+	text-decoration: underline;
+	color: #0000EE;
+	font-weight: normal;
+}
+footer  a:visited {
+	color: #800080;
+}
+
+
+
+
+
+
+
+
+
+
